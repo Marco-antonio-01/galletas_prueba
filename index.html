@@ -3,85 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microempresa Galletas</title>
-
-    <!-- =============================
-    ENLACE AL CSS
-    ============================= -->
+    <title>New Beauty</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-<!-- =============================================
-🟣 SECCIÓN HEADER (LOGO + MENÚ)
-============================================= -->
-<header class="header">
-    <div class="logo">Microempresa Galletas</div>
-    <div class="menu-icon">☰</div>
-</header>
+    <!-- NAV -->
+    <header class="navbar">
+        <h2 class="logo">New Beauty</h2>
+        <div class="menu-icon">&#9776;</div>
+    </header>
 
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Beauty that Begins with You</h1>
+            <p>Premium skincare designed to bring out your most luminous self.</p>
+            <button class="btn">Shop the Collection</button>
+        </div>
+        <img src="img/hero.png" class="hero-img">
+    </section>
 
-<!-- =============================================
-🟣 HERO PRINCIPAL (IMAGEN GRANDE + TEXTO)
-============================================= -->
-<section class="hero">
-    <img src="img/galleta1.jpg" class="hero-img" alt="Imagen principal galletas">
+    <!-- BESTSELLERS -->
+    <section class="bestsellers">
+        <h2>Our Bestsellers</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="img/p1.png">
+                <h3>Radiance Renewal Serum</h3>
+                <button class="btn2">Add to Cart</button>
+            </div>
 
-    <div class="hero-text">
-        <h1>Galletas que Endulzan tu Día</h1>
-        <p>Productos artesanales hechos con amor y los mejores ingredientes.</p>
-        <button class="btn">Ver Productos</button>
-    </div>
-</section>
+            <div class="product">
+                <img src="img/p2.png">
+                <h3>HydraSilk Moisturizer</h3>
+                <button class="btn2">Add to Cart</button>
+            </div>
 
+            <div class="product">
+                <img src="img/p3.png">
+                <h3>Veluxe Lip Nectar</h3>
+                <button class="btn2">Add to Cart</button>
+            </div>
 
-<!-- =============================================
-🟣 SECCIÓN DE PRODUCTOS DESTACADOS
-============================================= -->
-<section class="bestsellers">
-    <h2>Nuestras Galletas Más Vendidas</h2>
+            <div class="product">
+                <img src="img/p4.png">
+                <h3>Botanic Cleanse Gel</h3>
+                <button class="btn2">Add to Cart</button>
+            </div>
+        </div>
+    </section>
 
-    <div class="products">
+    <!-- SALE SECTION -->
+    <section class="sale">
+        <div class="sale-text">
+            <h2>Spring Beauty Sale<br>Up to 40% OFF</h2>
+            <p>Fresh formulas. Soft hues. Skin that glows like spring mornings.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+        <img src="img/sale.png" class="sale-img">
+    </section>
 
-        <!-- PRODUCTO 1 -->
-        <div class="product-card">
-            <img src="img/galleta2.jpg" alt="Galleta 2">
-            <h3>Galleta Chispas</h3>
-            <button class="btn">Agregar</button>
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div>
+            <h3>Loved by Thousands</h3>
+            <p>"My skin has never looked this fresh. The serum is magic."</p>
+            <p>- Tasha M.</p>
         </div>
 
-        <!-- PRODUCTO 2 -->
-        <div class="product-card">
-            <img src="img/galleta3.jpg" alt="Galleta 3">
-            <h3>Galleta Avena</h3>
-            <button class="btn">Agregar</button>
+        <div>
+            <h3>Ready to glow like never before?</h3>
+            <p>Join thousands who’ve transformed their skincare game with clean, effective formulas.</p>
+            <img src="img/flower.jpg" class="flower-img">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-left">
+            <h2>New Beauty</h2>
+            <p>123 Bloom Avenue, Rosewood, CA</p>
+            <p>Email: hello@newbeauty.com</p>
+            <p>Phone: +1 552 032 3466</p>
         </div>
 
-        <!-- PRODUCTO 3 -->
-        <div class="product-card">
-            <img src="img/galleta4.jpg" alt="Galleta 4">
-            <h3>Galleta Fresa</h3>
-            <button class="btn">Agregar</button>
+        <div class="footer-links">
+            <h3>Quick Links:</h3>
+            <ul>
+                <li>Shop</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Returns</li>
+                <li>Privacy Policy</li>
+            </ul>
         </div>
 
-    </div>
-</section>
+        <div class="footer-social">
+            <h3>Follow Us:</h3>
+            <div class="icons">
+                <span>●</span>
+                <span>●</span>
+                <span>●</span>
+                <span>●</span>
+            </div>
+        </div>
+    </footer>
 
-
-<!-- =============================================
-🟣 FOOTER
-============================================= -->
-<footer class="footer">
-    <p>© 2025 Microempresa Galletas - Todos los derechos reservados</p>
-</footer>
-
-<!-- =============================
-🟣 ENLACE AL JAVASCRIPT
-================================= -->
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
