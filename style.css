@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5d9dd; /* Color rosado suave */
+    background-color: #f5d9dd; /* Fondo rosado claro */
 }
 
 
@@ -18,18 +18,24 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombrita ligera */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .logo {
     font-size: 22px;
     font-weight: bold;
-    color: #4d0037; /* Tono vino */
+    color: #4d0037;
 }
 
 .menu-icon {
     font-size: 26px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.menu-icon:hover {
+    color: #ff7fa8;
+    transform: scale(1.1);
 }
 
 
@@ -38,10 +44,9 @@ body {
 🎀 HERO PRINCIPAL (IMAGEN + TEXTO)
 ====================================================== */
 .hero {
-    position: relative;
     text-align: center;
     padding: 20px;
-    background-color: #e9b7c4; /* Rosa más fuerte */
+    background-color: #e9b7c4;
 }
 
 .hero-img {
@@ -58,7 +63,7 @@ body {
 
 .hero-text h1 {
     font-size: 32px;
-    color: #5c0033; /* Tono vino oscuro */
+    color: #5c0033;
     margin-bottom: 10px;
 }
 
@@ -68,10 +73,10 @@ body {
     margin-bottom: 20px;
 }
 
-/* BOTÓN PRINCIPAL DEL HERO */
+/* BOTÓN */
 .btn {
     padding: 12px 25px;
-    background-color: #ff7fa8; /* Rosa */
+    background-color: #ff7fa8;
     color: white;
     border: none;
     border-radius: 25px;
@@ -103,7 +108,7 @@ body {
 
 .products {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
@@ -116,7 +121,6 @@ body {
     transition: transform 0.3s;
 }
 
-/* Pequeña animación al pasar el mouse */
 .product-card:hover {
     transform: scale(1.05);
 }
@@ -131,9 +135,6 @@ body {
     color: #4d0037;
 }
 
-.product-card .btn {
-    margin-top: 10px;
-}
 
 
 
@@ -148,4 +149,5 @@ body {
     font-size: 14px;
     margin-top: 40px;
     border-top: 2px solid #e3b4c3;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
 }
