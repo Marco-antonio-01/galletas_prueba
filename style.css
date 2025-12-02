@@ -1,67 +1,151 @@
+/* ======================================================
+🎀 ESTILO GENERAL DEL SITIO
+====================================================== */
 body {
-margin: 0;
-font-family: Arial, sans-serif;
-background-color: #f5d9dd;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5d9dd; /* Color rosado suave */
 }
 
 
-/* ===================== HEADER ===================== */
+
+/* ======================================================
+🎀 HEADER (LOGO + MENÚ)
+====================================================== */
 .header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 20px;
-background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombrita ligera */
 }
+
 .logo {
-font-size: 22px;
-font-weight: bold;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4d0037; /* Tono vino */
 }
+
 .menu-icon {
-font-size: 26px;
-cursor: pointer;
+    font-size: 26px;
+    cursor: pointer;
 }
 
 
-/* ===================== HERO ===================== */
+
+/* ======================================================
+🎀 HERO PRINCIPAL (IMAGEN + TEXTO)
+====================================================== */
 .hero {
-position: relative;
-text-align: center;
-padding: 20px;
-background-color: #e9b7c4;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #e9b7c4; /* Rosa más fuerte */
 }
+
 .hero-img {
-width: 100%;
-max-height: 380px;
-object-fit: cover;
-border-radius: 10px;
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
 .hero-text {
-margin-top: 20px;
+    margin-top: 20px;
 }
+
 .hero-text h1 {
-font-size: 32px;
-color: #5c0033;
+    font-size: 32px;
+    color: #5c0033; /* Tono vino oscuro */
+    margin-bottom: 10px;
 }
+
 .hero-text p {
-color: #4d0037;
+    color: #4d0037;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* BOTÓN PRINCIPAL DEL HERO */
+.btn {
+    padding: 12px 25px;
+    background-color: #ff7fa8; /* Rosa */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e96390;
 }
 
 
-/* ===================== PRODUCTOS ===================== */
+
+/* ======================================================
+🎀 SECCIÓN PRODUCTOS DESTACADOS
+====================================================== */
 .bestsellers {
-background-color: #ffffff;
-padding: 40px 20px;
-text-align: center;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
 }
+
+.bestsellers h2 {
+    color: #5c0033;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
 .products {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-gap: 20px;
-margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
 }
+
 .product-card {
-padding: 15px;
-background-color: #f8e3ea;
-border-radius: 10px;
+    padding: 15px;
+    background-color: #f8e3ea;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+/* Pequeña animación al pasar el mouse */
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    color: #4d0037;
+}
+
+.product-card .btn {
+    margin-top: 10px;
+}
+
+
+
+/* ======================================================
+🎀 FOOTER
+====================================================== */
+.footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    color: #5c0033;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 2px solid #e3b4c3;
 }
