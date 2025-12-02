@@ -1,77 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Microempresa Galletas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microempresa Galletas</title>
 
-
-<!-- =============================
-ENLACE AL CSS
-(El archivo styles.css debe ir en /css/styles.css)
-============================= -->
-<link rel="stylesheet" href="css/styles.css">
+    <!-- =============================
+    ENLACE AL CSS
+    ============================= -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-
 <!-- =============================================
 🟣 SECCIÓN HEADER (LOGO + MENÚ)
-Esta parte es la barra superior de la página
-=============================================== -->
+============================================= -->
 <header class="header">
-<div class="logo">Microempresa Galletas</div>
-<div class="menu-icon">☰</div>
+    <div class="logo">Microempresa Galletas</div>
+    <div class="menu-icon">☰</div>
 </header>
 
 
 <!-- =============================================
 🟣 HERO PRINCIPAL (IMAGEN GRANDE + TEXTO)
-Cambia hero.jpg por galleta1.jpg cuando tengas la imagen
-=============================================== -->
+============================================= -->
 <section class="hero">
-<img src="img/galleta1.jpg" class="hero-img" alt="Imagen principal galletas">
+    <img src="img/galleta1.jpg" class="hero-img" alt="Imagen principal galletas">
 
-
-<div class="hero-text">
-<h1>Galletas que Endulzan tu Día</h1>
-<p>Productos artesanales hechos con amor y los mejores ingredientes.</p>
-<button class="btn">Ver Productos</button>
-</div>
+    <div class="hero-text">
+        <h1>Galletas que Endulzan tu Día</h1>
+        <p>Productos artesanales hechos con amor y los mejores ingredientes.</p>
+        <button class="btn">Ver Productos</button>
+    </div>
 </section>
 
 
 <!-- =============================================
 🟣 SECCIÓN DE PRODUCTOS DESTACADOS
-Aquí puedes agregar o quitar productos
-=============================================== -->
+============================================= -->
 <section class="bestsellers">
-<h2>Nuestras Galletas Más Vendidas</h2>
+    <h2>Nuestras Galletas Más Vendidas</h2>
+
+    <div class="products">
+
+        <!-- PRODUCTO 1 -->
+        <div class="product-card">
+            <img src="img/galleta2.jpg" alt="Galleta 2">
+            <h3>Galleta Chispas</h3>
+            <button class="btn">Agregar</button>
+        </div>
+
+        <!-- PRODUCTO 2 -->
+        <div class="product-card">
+            <img src="img/galleta3.jpg" alt="Galleta 3">
+            <h3>Galleta Avena</h3>
+            <button class="btn">Agregar</button>
+        </div>
+
+        <!-- PRODUCTO 3 -->
+        <div class="product-card">
+            <img src="img/galleta4.jpg" alt="Galleta 4">
+            <h3>Galleta Fresa</h3>
+            <button class="btn">Agregar</button>
+        </div>
+
+    </div>
+</section>
 
 
-<div class="products">
-<!-- PRODUCTO 1 -->
-<div class="product-card">
-<img src="img/galleta2.jpg" alt="Galleta 2">
-<h3>Galleta Chispas</h3>
-<button class="btn">Agregar</button>
-</div>
+<!-- =============================================
+🟣 FOOTER
+============================================= -->
+<footer class="footer">
+    <p>© 2025 Microempresa Galletas - Todos los derechos reservados</p>
+</footer>
 
-
-<!-- PRODUCTO 2 -->
-<div class="product-card">
-<img src="img/galleta3.jpg" alt="Galleta 3">
-<h3>Galleta Avena</h3>
-<button class="btn">Agregar</button>
-</div>
-
-
-<!-- PRODUCTO 3 -->
-<div class="product-card">
-<img src="img/galleta4.jpg" alt="Galleta 4">
-<h3>Galleta Fresa</h3>
-<button class="btn">Agregar</button>
-</div>
-
-
+</body>
 </html>
